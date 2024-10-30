@@ -1,6 +1,6 @@
 <?php
 
-namespace GoblinCoders;
+namespace GcProfiler\Twig;
 
 use Shopware\Core\Framework\Adapter\Twig\TwigEnvironment;
 use Shopware\Core\Profiling\Profiler;

@@ -1,6 +1,6 @@
 {
-    "name": "goblin-coders/gc-twig-profiler",
-    "description": "goblin-coders/gc-twig-profiler",
+    "name": "goblin-coders/gc-profiler",
+    "description": "goblin-coders/gc-profiler",
     "type": "shopware-platform-plugin",
     "version": "1.0.0",
     "license": "MIT",
@@ -12,19 +12,19 @@
             "name": "Goblin coders",
             "role": "Manufacturer",
             "homepage": "https://goblin-coders.de",
-            "email": "gc-twig-profiler@goblin-coders.de"
+            "email": "gc-profiler@goblin-coders.de"
         }
     ],
     "extra": {
-        "shopware-plugin-class": "GoblinCoders\\GcTwigProfiler",
+        "shopware-plugin-class": "GcProfiler\\GcProfiler",
         "label": {
-            "de-DE": "Goblin coders - Twig profiler extension",
-            "en-GB": "Goblin coders - Twig profiler extension"
+            "de-DE": "Goblin coders - Profiler extension",
+            "en-GB": "Goblin coders - Profiler extension"
         }
     },
     "autoload": {
         "psr-4": {
-            "GoblinCoders\\": "src/"
+            "GcProfiler\\": "src/"
         }
     }
 }

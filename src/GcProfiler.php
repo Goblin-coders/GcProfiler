@@ -1,11 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace GoblinCoders;
+namespace GcProfiler;
 
+use GcProfiler\Twig\TwigEnvironmentCompilerPass;
 use Shopware\Core\Framework\Plugin;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
-class GcTwigProfiler extends Plugin
+class GcProfiler extends Plugin
 {
     public function build(ContainerBuilder $container): void
     {
