@@ -1,3 +1,4 @@
+## Description
 This free plugin enhances performance profiling in Shopware 6 by adding targeted profiler calls at several key points, making monitoring with Tideways or other integrations significantly easier and more effective.
 
 The plugin enables a more precise analysis of performance bottlenecks by capturing and visualizing relevant data in the following areas:
@@ -13,3 +14,17 @@ By integrating these profiler calls, it becomes easier to make targeted optimiza
 
 <img width="981" alt="image" src="https://github.com/user-attachments/assets/01453331-f9e3-47a9-8096-42bf47638526">
 
+## FAQ
+
+Q: *I see no difference in Tideways*
+
+A: You have to activate the `Tideways` profiler integration in your `shopware.yaml`
+
+```yaml
+shopware:
+    profiler:
+        integrations:
+            - Tideways
+```
+
+See: https://developer.shopware.com/docs/resources/references/adr/2022-03-25-profiler-integrations.html
