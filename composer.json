@@ -2,10 +2,10 @@
     "name": "goblin-coders/gc-profiler",
     "description": "goblin-coders/gc-profiler",
     "type": "shopware-platform-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "require": {
-        "shopware/core": "~6.6.0"
+        "shopware/core": "~6.5.0"
     },
     "authors": [
         {

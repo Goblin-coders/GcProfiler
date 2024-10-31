@@ -11,6 +11,7 @@ class GcProfiler extends Plugin
     public function build(ContainerBuilder $container): void
     {
         $container->addCompilerPass(new TwigEnvironmentCompilerPass());
+
         parent::build($container);
     }
 }
