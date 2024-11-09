@@ -1,5 +1,5 @@
 {
-    "name": "goblin-coders/gc-profiler",
+    "name": "goblin-coders/profiler",
     "description": "goblin-coders/gc-profiler",
     "type": "shopware-platform-plugin",
     "version": "1.0.1",
@@ -12,7 +12,7 @@
             "name": "Goblin coders",
             "role": "Manufacturer",
             "homepage": "https://goblin-coders.de",
-            "email": "gc-profiler@goblin-coders.de"
+            "email": "oliver@goblin-coders.de"
         }
     ],
     "extra": {
