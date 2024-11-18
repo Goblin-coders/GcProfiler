@@ -7,6 +7,8 @@
     <services>
         <defaults autowire="true" autoconfigure="true"/>
 
-        <prototype namespace="GcProfiler\" resource="../../"/>
+        <prototype namespace="GcProfiler\" resource="../../" />
+
+        <service id="GcProfiler\Listing\AggregationDecorator" autowire="false" autoconfigure="false" />
     </services>
 </container>
